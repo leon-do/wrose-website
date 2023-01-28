@@ -16,6 +16,11 @@ export default function Nav() {
                 </div>
               </div>
               <div className="ml-6 flex space-x-8">
+                <Link href="https://app.wrose.io" className="inline-flex items-center border-b-2 hover:border-b-sky-500 px-1 pt-1 text-base font-medium">
+                  Mainnet
+                </Link>
+              </div>
+              <div className="ml-6 flex space-x-8">
                 <Link href="https://testnet.wrose.io" className="inline-flex items-center border-b-2 hover:border-b-sky-500 px-1 pt-1 text-base font-medium">
                   Testnet
                 </Link>

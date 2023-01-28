@@ -15,7 +15,7 @@ export default function Index() {
           </div>
           <p className="w-full mx-auto text-base text-left sm:text-lg lg:text-2xl max-w-xl md:text-center"></p>
           <div className="py-10">
-            <Link className="cursor-pointer px-6 py-3 text-lg text-white bg-sky-500 rounded-md hover:bg-sky-400" href="https://testnet.wrose.io">
+            <Link className="cursor-pointer px-6 py-3 text-lg text-white bg-sky-500 rounded-md hover:bg-sky-400" href="https://app.wrose.io">
               <span>Launch App</span>
             </Link>
           </div>
