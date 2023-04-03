@@ -28,7 +28,6 @@ function MyApp({ Component, pageProps }) {
           cardType: "summary_large_image",
         }}
       />
-      ;
       <Component {...pageProps} />
     </>
   );
