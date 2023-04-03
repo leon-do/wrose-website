@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import { NextSeo } from "next-seo";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -26,6 +27,21 @@ function MyApp({ Component, pageProps }) {
         twitter={{
           handle: "@OasisProtocol",
           cardType: "summary_large_image",
+        }}
+      />
+      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-02B3WPBLDV" />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-02B3WPBLDV', {
+          page_path: window.location.pathname,
+          });
+        `,
         }}
       />
       <Component {...pageProps} />
