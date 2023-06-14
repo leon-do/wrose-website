@@ -11,7 +11,7 @@ export default function Index() {
         <div className="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
           <div className="text-center text-6xl text-sky-500">WROSE</div>
           <div className="flex flex-col items-center pt-4">
-            <div className="text-center text-2xl max-w-lg text-gray-700">Wrapped ROSE on Oasis Sapphire enables DeFi swapping and sending ROSE while preserving privacy.</div>
+            <div className="text-center text-2xl max-w-lg text-gray-700">Wrapped ROSE on Oasis Sapphire enables sending ROSE while preserving privacy.</div>
           </div>
           <p className="w-full mx-auto text-base text-left sm:text-lg lg:text-2xl max-w-xl md:text-center"></p>
           <div className="py-10">

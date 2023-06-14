@@ -7,12 +7,12 @@ function MyApp({ Component, pageProps }) {
     <>
       <NextSeo
         title="Wrapped Rose"
-        description="Wrapped ROSE on Oasis Sapphire enables DeFi swapping and sending ROSE while preserving privacy."
+        description="Wrapped ROSE on Oasis Sapphire enables sending ROSE while preserving privacy."
         canonical="https://www.wrose.io/"
         openGraph={{
           url: "https://www.wrose.io/",
           title: "Wrapped Rose",
-          description: "Wrapped ROSE on Oasis Sapphire enables DeFi swapping and sending ROSE while preserving privacy.",
+          description: "Wrapped ROSE on Oasis Sapphire enables sending ROSE while preserving privacy.",
           images: [
             {
               url: "https://user-images.githubusercontent.com/19412160/229571180-be04ee34-a5b2-4691-8120-b3d185921d37.png",
