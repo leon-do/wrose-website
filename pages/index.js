@@ -111,14 +111,14 @@ export default function Index() {
                         <td class="whitespace-nowrap px-3 py-4 text-sm">Sapphire</td>
                         <td class="whitespace-nowrap px-3 py-4 text-sm">Mainnet</td>
                         <td class="whitespace-nowrap px-3 py-4 text-sm">
-                        <Link href="https://explorer.sapphire.oasis.io/address/0xA75e40527A55a9eb0C08896C993B0CAdd5cDc18F/transactions">0xA75e40527A55a9eb0C08896C993B0CAdd5cDc18F</Link>
+                        <Link href="https://explorer.sapphire.oasis.io/address/0x301879c8677e050f0f7104fe6a3059806Abb41C6/transactions">0x301879c8677e050f0f7104fe6a3059806Abb41C6</Link>
                         </td>
                       </tr>
                       <tr>
                         <td class="whitespace-nowrap px-3 py-4 text-sm">Sapphire</td>
                         <td class="whitespace-nowrap px-3 py-4 text-sm">Testnet</td>
                         <td class="whitespace-nowrap px-3 py-4 text-sm">
-                          <Link href="https://testnet.explorer.sapphire.oasis.dev/address/0xA75e40527A55a9eb0C08896C993B0CAdd5cDc18F/transactions">0xA75e40527A55a9eb0C08896C993B0CAdd5cDc18F</Link>
+                          <Link href="https://testnet.explorer.sapphire.oasis.dev/address/0x71929C3A935f289Cd273dE19B0837c41187285CC/transactions">0x71929C3A935f289Cd273dE19B0837c41187285CC</Link>
                         </td>
                       </tr>
                       <tr>
